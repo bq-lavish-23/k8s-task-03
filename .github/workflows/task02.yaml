@@ -1,0 +1,52 @@
+name: Hello World02
+
+on: [push]
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo Hello, world!
+  job2:
+    runs-on: self-hosted
+    steps:
+      - name: pull docker hello world image
+        run: docker pull hello-world
+  job3:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a one-line script
+        run: echo amresh
+  job4:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a one-line script
+        run: echo amresh
+  job5:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a one-line script
+        run: echo amresh
+  job6:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a one-line script
+        run: echo amresh
+  job7:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a one-line script
+        run: echo amresh
+  job8:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a one-line script
+        run: echo amresh
